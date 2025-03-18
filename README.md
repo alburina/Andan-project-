@@ -29,7 +29,7 @@ ____
 
 Также в этом ноутбуке были созданы новые признаки, такие как количество фильмов, выпущенных в разные годы, а также средний и минимальный бюджет фильмов за определенные периоды. 
 
-> [EDA.ipynb](https://github.com/alburina/Andan-project-/blob/main/graphics.ipynb)
+> [graphics.ipynb](https://github.com/alburina/Andan-project-/blob/main/graphics.ipynb)
 
 
 
