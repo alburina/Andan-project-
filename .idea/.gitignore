@@ -169,3 +169,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+echo ".DS_Store" >> .gitignore
+git rm --cached .DS_Store
+git commit -m "Remove .DS_Store and update .gitignore"
+git push origin main
+
+
+find . -name ".DS_Store" -delete
+git rm --cached $(git ls-files --ignored --exclude-standard)
+git commit -m "Remove all .DS_Store files"
+git push origin main
+
+
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
